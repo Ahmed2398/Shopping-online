@@ -1,0 +1,502 @@
+/*header*/
+header{
+    padding: 15px 0;
+    background-color: #2c3436; 
+}
+header p{
+ color: #fff;
+ text-transform: capitalize;
+}
+/*END*/
+/*mini-nav*/
+.mini-nav{
+    padding: 20px 0;
+}
+.mini-nav .search{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #111;
+    border-radius: 3px;
+    text-align: center;
+}
+.mini-nav ul li {
+   display: inline-block;
+   padding: 0 10px;
+}
+.mini-nav a {
+    text-decoration: none;
+}
+/*END*/
+.navbar{
+    padding:20px 0;
+  background-color: #f9f9f9;
+}
+.navbar-toggler .fa{
+ font-size: 30px;
+}
+#navbarNavDropdown ul li{
+    padding: 0 20px;
+}
+.nav-link{
+    color: #111;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.dropdown-toggle{
+    background-color:#009bcb;
+    border: 3px solid #009bcb;
+    border-radius: 7px;
+    color: #fff !important;
+}
+/*END*/
+.card{
+  margin: 25px 0;
+}
+.card img{
+    width: 100%;
+    height:100%;
+}
+.card-body span {
+    font-size: 14px;
+    color: #666666;
+    text-transform: capitalize;
+}
+.card-body p{
+    font-size: 14px;
+    color: #009bcb;
+    text-transform: capitalize;
+}
+.card-body .fas{
+    padding: 0 10px;
+}
+/*END*/
+#carouselExampleCaptions{
+    margin: 20px 0;
+}
+.carousel-inner{
+    width: 100%;
+    height: 400px;
+}
+/*END*/
+/*product*/
+.products{
+    padding: 20px 0;
+}
+.products .card-body{
+    width: 180px;
+}
+.products .card-title {
+    text-align: left;
+    color: #f53f52;
+    font-size: 18px;
+}
+.products a{
+    color: #2d3436;
+    font-size: 14px;
+}
+.products .fas{
+    padding: 0 10px;
+    color: #f53f52;
+}
+.products .card-body .rate ::before{
+    content: "\f005\f005\f005\f005\f005";
+    top: 0;
+    left: 0;
+    color: #fc0;
+    letter-spacing: .1em;
+}
+/*END*/
+.Categories{
+    padding: 25px 0;
+    background-color: #f9f9f9;
+}
+.Categories .fas {
+    padding: 0 10px;
+    color: #f53f52;
+}
+.Categories a{
+  text-decoration: none !important;
+  color: #111;
+}
+.Categories SPAN:hover{
+    color: #009bcb;
+}
+/*END*/
+/*deals*/
+.deals{
+    padding: 25px 0;
+}
+.deals .card{
+    background-color: #f9f9f9;
+    border-top: 5px solid #f53f52 !important;
+}
+.deals h4{
+    color: #2d3436;
+    font-size: 18px;
+    padding: 0 0 15px 0;
+}
+.deals p{
+    color: #666666;
+    font-size: 16px;
+}
+.deals a{
+    text-decoration: none !important;
+}
+.deals .fas{
+   color: #f7a03f;
+   padding: 0 10px;
+}
+/*END*/
+/*brand*/
+.brand{
+    padding: 25px 0;
+}
+.brand img{
+    width: 100%;
+}
+/*END*/
+/*shops*/
+.shops{
+    padding: 25px 0;
+}
+.shops img{
+    width: 100%;
+}
+.shops a{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #2d3436;
+    text-decoration: none !important;
+}
+/*END*/
+/*create*/
+.create{
+    background-color: #f9f9f9;
+    padding: 25px 0;
+}
+.create h3{
+    color: #2d3436;
+    font-size: 35px;
+}
+.create p{
+    color: #666666;
+    font-size: 18px;
+    padding: 0 0 50px 0;
+}
+/*END*/
+/*NEW*/
+.new{
+    background-color: #f9f9f9;
+    padding: 25px 0;
+}
+.new .card{
+    background-color: #f9f9f9;
+    text-align: center;
+    border: none;
+}
+/*END*/
+.share{
+    padding: 25px 0;
+}
+.share img{
+    width: 100%;
+}
+/*END*/
+/*mail*/
+.mail{
+    height: 200px;
+    background-color: #f9f9f9;
+    padding: 25px 0;
+}
+.mail p{
+    color: #009bcb;
+    font-size: 30px;
+}
+.mail span{
+    color: #666666;
+    font-size: 14px;
+}
+.text-input{ 
+    position: relative;
+    margin-top: 50px;
+   }
+    
+    input[type="text"]{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px 10px 10px 100px;
+    transition: all 0.1s ease-out;
+    }
+    
+    input[type="text"] + label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    border-radius: 3px 0 0 3px;
+    padding: 0 20px;
+    background: #009bcb;
+    transform: translateZ(0) translateX(0);
+    transition: all 0.3s ease-in;
+    transition-delay: 0.2s;
+    }
+    
+    input[type="text"]:focus + label{
+    transform: translateY(-120%) translateX(0%);
+    border-radius: 3px;
+    transition: all 0.1s ease-out;
+    }
+    
+    input[type="text"]:focus{
+    padding: 10px;
+    transition: all 0.3s ease-out;
+    transition-delay: 0.2s;
+    }
+/*END*/
+/*who*/
+ .who{
+     margin: 25px 0;
+     border-bottom:1px solid #666666 ;
+ }
+/*footer*/
+footer{
+    padding: 25px 0;
+    border-bottom:2px solid #666666 ;
+}
+footer p{
+    color: #666666;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+footer span{
+    color: #111;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+footer h4{
+    padding-left: 35px;
+    color: #2d3436;
+    font-size: 18px;
+    font-weight: 600;
+}
+footer ul li{
+    padding-left: 40px;
+    color: #666666;
+    font-size: 14px;
+}
+/*End*/
+/*Copy*/
+.copy{
+    padding:15px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 17px;
+    color: #666666;
+}
+/*END*/
+/*
+#team{
+    padding: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+h1{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+h1::after{
+    content: '';
+    background: #007BFF;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile-pic img
+{
+  width: 100%;
+  height: 400px;
+}
+.profile-pic .img-box
+{
+   opacity: 1;
+   display: block;
+   position: relative;
+}
+.profile-pic .img-box img
+{
+  filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+   filter: grayscale(0);
+   cursor:pointer;
+}
+.profile-pic h2{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #007BFF;
+ 
+}
+.profile-pic span{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+   
+  }
+  #team .fa{
+      height: 25px;
+      width: 25px;
+      color: #007BFF !important;
+      background: #fff;
+      padding: 4px;
+      border-radius: 50%;
+  }
+  .img-box ul{
+      padding: 15px 0;
+      position: absolute;
+      z-index:2;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50);
+      opacity: 0;
+  }
+  .img-box ul li{
+      padding: 5px;
+      display:inline-block;
+  }
+  .img-box:hover ul{
+opacity: 1;
+  }
+  .img-box ul, .img-box ul  li{
+      transition: 0.5;
+  }
+  *****************************************************
+  /*END*/
+  /*value*/
+  .value{
+      text-align: center;
+      padding: 20px 0;
+  }
+  .value .card{
+      border: none;
+  }
+  .value .card:hover{
+      opacity: .9;
+      cursor: pointer;
+  }
+  .value .card-text{
+      color: #000000;
+      font-size: 18px;
+  }
+  /*END*/
+  /*history*/
+  .history{
+      padding: 20px 0;
+  }
+  .history ul {
+      padding: 65px 0 0 0;
+  }
+  .history ul li a{
+      color: #989898;
+      font-weight: bold;
+      text-decoration: none !important;
+  }
+  .history ul .active a {
+      color:red;
+  }
+  .history ul li a:hover{
+      cursor: pointer;
+      color: #2d3436;
+  }
+  .history ul li p{
+      display: none;
+  }
+  .history .look{
+      background-image: url('../image/bg-about.jpg');
+      width: 100%;
+      height: 300px;
+  }
+  .history span{
+      color: #2d3436;
+      font-weight: bold;
+      font-size: 18px;
+  }
+  .history p{
+      color: #666666;
+      font-size: 16px;
+      margin: 0 0 21px;
+  }
+  /*END*/
+  /*Awards*/
+  .awards{
+      padding: 20px 0;
+      text-align: center;
+  }
+  /*Ahmed*/
+ .ahmed .card{
+    background-size: 100%;
+    width: 100%;
+    height: 350px;
+    border:1px solid #eee;
+    color: #fff;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card .content{
+    font-size: 13px;
+    padding-top: 265px;
+    transition: all .1s ease;
+}
+.card:hover .content{
+    visibility: hidden;
+}
+.card .position{
+    position: absolute;
+    bottom: -70px;
+    transition: all .5s ease;
+    visibility: hidden;
+    font-size: 20px;
+}
+.card:hover .position{
+    margin-bottom: 90px;
+    visibility: visible !important;
+    
+}
+/*Primary*/
+.blog{
+    padding: 10px 0;
+   
+}
+.primary .card {
+    text-align: center;
+    border: none !important;
+   width: 90% !important ;
+}
+
+  
+
+.primary .card-body span{
+    font-size: 16px;
+    color: #666666;
+}
+.blog .secondary .card {
+ 
+}
